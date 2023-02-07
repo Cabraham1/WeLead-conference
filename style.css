@@ -55,6 +55,13 @@ a {
     background-size: cover;
   }
 
+  .title-paragraph {
+    color: rgb(236, 82, 66);
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
   .title {
     padding: 120px 50px 100px 50px;
   }
@@ -65,36 +72,40 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 32px;
-  }
-
-  .title-paragraph {
-    color: rgb(236, 82, 66);
     font-size: 25px;
-    font-weight: 500;
-    background-clip: text;
-    -webkit-background-clip: text;
+    font-family: 'Lato', sans-serif;
   }
 
   .quote {
     border: 3px solid #fff;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     padding: 10px;
     color: #272a31;
     background-color: rgb(211, 211, 211, 0.3);
     margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
   }
 
   .date {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 800;
     color: #48494b;
+    font-family: 'Lato', sans-serif;
   }
 
   .venue {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #48494b;
+    font-family: 'Lato', sans-serif;
   }
+
+    .second-section {
+      background: url(./assets/Prog-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
 }
