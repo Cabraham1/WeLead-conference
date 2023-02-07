@@ -369,6 +369,7 @@ a {
     background-color: #2b2a2a;
     align-items: center;
     font-family: 'Lato', sans-serif;
+    height: 3rem;
   }
 
   .header-icon ul {
@@ -396,8 +397,7 @@ a {
     align-items: center;
     justify-content: space-around;
     width: 40%;
-    margin-left: 2rem;
-    gap: 0.2rem;
+    gap: 2rem;
   }
 
   .hamburger {
@@ -407,16 +407,16 @@ a {
   .nav-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 1rem 2rem;
     background-color: #fff;
     width: 80vw;
     min-width: 90vw;
+            padding-left: 3rem;
   }
 
   .nav-link {
     color: rgba(0, 0, 0, .55);
-    ;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 1.4rem;
@@ -451,17 +451,18 @@ a {
     background: url(./assets/conference-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 3rem;
   }
 
   .title-paragraph {
-    color: rgb(236, 82, 66);
-    font-size: 23px;
-    font-weight: bold;
+    color: red;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
   }
 
   .title {
-    padding: 120px 50px 100px 50px;
+    padding: 180px 50px 100px 50px;
   }
 
   .title h1 {
@@ -470,34 +471,36 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 25px;
+    font-size: 3rem;
     font-family: 'Lato', sans-serif;
   }
 
   .quote {
     border: 3px solid #fff;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    font-weight: 400;
     padding: 10px;
     color: #272a31;
     background-color: rgb(211, 211, 211, 0.3);
     margin-top: 40px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
+    width: 90%;
   }
 
   .date {
-    font-size: 20px;
+    font-size: 1.8rem;
     font-weight: 800;
     color: #48494b;
     font-family: 'Lato', sans-serif;
   }
 
   .venue {
-    font-size: 20px;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #48494b;
-    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
   }
 
   .second-section {
@@ -511,11 +514,13 @@ a {
     padding: 50px;
   }
 
-  .program-intro {
+  .program-intro h1 {
     color: #fff;
     text-align: center;
     align-items: center;
     font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
   }
 
   .program-intro hr {
@@ -529,10 +534,11 @@ a {
 
   .program-content {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    flex-direction: row;
     font-family: 'Lato', sans-serif;
+    gap: 1rem ;
   }
 
   .card {
@@ -541,18 +547,20 @@ a {
     cursor: pointer;
     margin-top: 0.3rem;
     font-family: 'Lato', sans-serif;
+    height: 13rem;
   }
 
   .card-body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     padding: 20px;
     width: 100%;
     font-size: 14px;
     line-height: 20px;
     flex: 1;
+    gap: 1rem ;
     font-family: 'Lato', sans-serif;
   }
 
