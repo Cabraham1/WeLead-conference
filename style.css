@@ -15,5 +15,39 @@ a {
 /* mobile view starts here */
 
 @media screen and (min-width: 330px) and (max-width: 599px) {
+  .nav-menu {
+    display: none;
+  }
 
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    background-color: #fff;
+    width: 80vw;
+    min-width: 90vw;
+  }
+
+  .logo span {
+    border: 3px dotted red;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    line-height: 18px;
+    border-radius: 16px;
+    padding: 5px 5px 5px 5px;
+    color: #49494B;
+  }
+
+  .logo {
+    color: #49494B;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  
 }
