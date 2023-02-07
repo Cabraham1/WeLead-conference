@@ -49,5 +49,52 @@ a {
     font-weight: 600;
   }
 
-  
+  .first-section {
+    background: url(./assets/conference-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title {
+    padding: 120px 50px 100px 50px;
+  }
+
+  .title h1 {
+    background-image: url(./assets/title-bg.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 32px;
+  }
+
+  .title-paragraph {
+    color: rgb(236, 82, 66);
+    font-size: 25px;
+    font-weight: 500;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .quote {
+    border: 3px solid #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    color: #272a31;
+    background-color: rgb(211, 211, 211, 0.3);
+    margin-top: 40px;
+  }
+
+  .date {
+    font-size: 28px;
+    font-weight: 800;
+    color: #48494b;
+  }
+
+  .venue {
+    font-size: 24px;
+    font-weight: bold;
+    color: #48494b;
+  }
 }
