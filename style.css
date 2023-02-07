@@ -189,7 +189,7 @@ a {
   .whole-session {
     text-transform: uppercase;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 1.3rem;
     text-align: center;
     margin: 20px auto;
     font-family: 'Lato', sans-serif;
