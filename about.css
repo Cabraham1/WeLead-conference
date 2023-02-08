@@ -68,14 +68,12 @@ a {
 
   .title h1 {
     background-image: url(./assets/title-bg.jpg);
-    background-size: cover;
-    background-clip: text;
+    background-clip: inherit;
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
     margin-top: 1rem;
-
   }
 
   .title-paragraph {
@@ -114,7 +112,6 @@ a {
   .wp-logo {
     text-align: center;
     padding: 50px;
-    border: 1px soli;
   }
 
   .wp-logo hr,
@@ -127,7 +124,6 @@ a {
     text-align: center;
     margin: 20px auto;
   }
-
 
   .wp-logo-title {
     font-family: 'Lato', sans-serif;
@@ -190,13 +186,12 @@ a {
     padding-top: 1rem;
     font-size: 2.1rem;
     font-weight: 400;
-    font-family: 'Lato', sans-serif;
   }
+
   .past-event > p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
-    font-family: 'Lato', sans-serif;
     padding: 0 1rem;
   }
 
@@ -240,7 +235,7 @@ a {
   }
 
   .logo-footer {
-   border: 3px dotted red;
+    border: 3px dotted red;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 800;
@@ -248,7 +243,7 @@ a {
     border-radius: 16px;
     padding: 5px 5px 5px 5px;
     color: #49494b;
-    background-color: #fff; 
+    background-color: #fff;
   }
 
   .custom ul {

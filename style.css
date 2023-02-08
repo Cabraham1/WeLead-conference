@@ -145,9 +145,9 @@ a {
 
   .title h1 {
     background-image: url(./assets/title-bg.jpg);
-    background-size: cover;
-    background-clip: text;
+    background-clip: inherit;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: transparent;
     font-size: 25px;
     font-family: 'Lato', sans-serif;
@@ -290,7 +290,6 @@ a {
     font-weight: 600;
     text-align: center;
     margin: 20px auto;
-    font-weight: bold;
     font-family: 'Lato', sans-serif;
   }
 
@@ -407,30 +406,13 @@ a {
     font-weight: 700;
   }
 
-  .partner ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: 'Lato', sans-serif;
-  }
-
-  .partner li {
-    text-decoration: none;
-    list-style: none;
-    padding: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Lato', sans-serif;
-  }
-
   footer .hid {
     display: none;
   }
 }
 
 @media screen and (min-width: 600px) {
-
-.nav-item:hover {
+  .nav-item:hover {
     transform: scale(0.9);
   }
 
@@ -542,9 +524,9 @@ a {
 
   .title h1 {
     background-image: url(./assets/title-bg.jpg);
-    background-size: cover;
-    background-clip: text;
+    background-clip: inherit;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: transparent;
     font-size: 3rem;
     font-family: 'Lato', sans-serif;
@@ -609,7 +591,6 @@ a {
 
   .program-content {
     display: flex;
-    align-items: space-around;
     justify-content: center;
     flex-direction: row;
     font-family: 'Lato', sans-serif;
