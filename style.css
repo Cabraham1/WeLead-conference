@@ -19,14 +19,11 @@ a {
     display: none;
   }
 
-  .nav-menu {
-    display: none;
-  }
-
   .nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row-reverse;
     margin: 1rem 2rem;
     background-color: #fff;
     width: 80vw;
@@ -51,6 +48,82 @@ a {
     line-height: 30px;
     text-align: center;
     font-weight: 600;
+  }
+
+  /* hamburger statrts here  */
+
+  .bar {
+    display: block;
+    width: 20px;
+    margin: 3px auto;
+    height: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #010103;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 30;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
+  }
+
+  .nav-menu {
+    padding-top: 2rem;
+    position: fixed;
+    right: -100%;
+    top: -1px;
+    flex-direction: column;
+    width: 100%;
+    background-color: #6070ff;
+    text-align: left;
+    transition: 0.3s;
+    height: 100vh;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(8px);
+    z-index: 30;
+  }
+
+  .nav-item {
+    margin-top: 2rem;
+    padding-left: 1rem;
+    width: 351px;
+  }
+
+  .nav-item:hover {
+    transform: scale(0.9);
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-link {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+  #campaign-link {
+    border: 5px solid red;
+    padding: 5px;
   }
 
   .first-section {
