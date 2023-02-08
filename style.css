@@ -429,6 +429,11 @@ a {
 }
 
 @media screen and (min-width: 600px) {
+
+.nav-item:hover {
+    transform: scale(0.9);
+  }
+
   .whole-session a {
     color: #fff;
   }

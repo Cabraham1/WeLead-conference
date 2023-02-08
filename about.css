@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* mobile view starts here */
+
+@media screen and (min-width: 330px) and (max-width: 599px) {
+  .header-icon {
+    display: none;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 1rem 2rem;
+    background-color: #fff;
+    width: 80vw;
+    min-width: 90vw;
+  }
+
+  .logo span {
+    border: 3px dotted red;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    line-height: 18px;
+    border-radius: 16px;
+    padding: 5px 5px 5px 5px;
+    color: #49494b;
+  }
+
+  .logo {
+    color: #49494b;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .first-section {
+    background: url(./assets/conference-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title {
+    padding: 160px 50px 100px 50px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .title h1 {
+    background-image: url(./assets/title-bg.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: 1rem;
+
+  }
+
+  .title-paragraph {
+    color: rgb(236, 82, 66);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .quote {
+    border: 3px solid #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+    color: #272a31;
+    line-height: 1.6rem;
+    background-color: rgb(211, 211, 211, 0.3);
+    margin-top: 40px;
+    margin-bottom: 2rem;
+  }
+
+  .title span {
+    color: #272a31;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .title a {
+    color: #272a31;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
