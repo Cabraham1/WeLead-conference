@@ -15,7 +15,6 @@ a {
 /* mobile view starts here */
 
 @media screen and (min-width: 330px) and (max-width: 599px) {
-
   .header-icon {
     display: none;
   }
@@ -42,11 +41,11 @@ a {
     line-height: 18px;
     border-radius: 16px;
     padding: 5px 5px 5px 5px;
-    color: #49494B;
+    color: #49494b;
   }
 
   .logo {
-    color: #49494B;
+    color: #49494b;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     line-height: 30px;
@@ -187,8 +186,6 @@ a {
   .card-body img {
     max-width: 40px;
     min-height: 40px;
-
-
   }
 
   .whole-session {
@@ -204,8 +201,6 @@ a {
   .whole-session a {
     color: #fff;
   }
-
-
 
   .speakers-intro hr {
     height: 5px;
@@ -223,7 +218,7 @@ a {
     text-align: center;
     margin: 20px auto;
     font-weight: bold;
-    font-family: 'Lato', sans-serif
+    font-family: 'Lato', sans-serif;
   }
 
   .speakers-bio {
@@ -332,7 +327,6 @@ a {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-
   }
 
   .custom ul li {
@@ -362,6 +356,14 @@ a {
 }
 
 @media screen and (min-width: 600px) {
+  .whole-session a {
+    color: #fff;
+  }
+
+  .header-icon li a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
 
   .header-icon {
     display: flex;
@@ -384,11 +386,6 @@ a {
   .header-icon li {
     margin-left: 20px;
     list-style: none;
-  }
-
-  .header-icon li a {
-    text-decoration: none;
-    color: #d3d3d3;
   }
 
   .nav-menu {
@@ -416,7 +413,7 @@ a {
   }
 
   .nav-link {
-    color: rgba(0, 0, 0, .55);
+    color: rgba(0, 0, 0, 0.55);
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 1.4rem;
@@ -435,11 +432,11 @@ a {
     line-height: 18px;
     border-radius: 16px;
     padding: 5px 5px 5px 5px;
-    color: #49494B;
+    color: #49494b;
   }
 
   .logo {
-    color: #49494B;
+    color: #49494b;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     line-height: 30px;
@@ -602,12 +599,6 @@ a {
     color: white;
   }
 
-  .whole-session a {
-    color: #fff;
-  }
-
-
-
   .speakers-intro hr {
     height: 5px;
     width: 50px;
@@ -623,8 +614,7 @@ a {
     font-weight: 600;
     text-align: center;
     margin: 20px auto;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif
+    font-family: 'Lato', sans-serif;
   }
 
   .speakers-bio {
@@ -733,7 +723,6 @@ a {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-
   }
 
   .custom ul li {
