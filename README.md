@@ -75,8 +75,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
- - a Laptop
- - git 
+ - A laptop
+ - git
  - code editor (e.g Vscode)
 
 To get a local copy up and running follow these simple example steps.
@@ -95,7 +95,7 @@ To get a local copy up and running follow these simple example steps.
 
 > Original design idea by
 👤 **Cindy Shin**
-- GitHub: [@behance](https://www.behance.net/adagio07)
+- Behance: [@behance](https://www.behance.net/adagio07)
 
 > Mention all of the collaborators of this project.
 
@@ -119,6 +119,14 @@ To get a local copy up and running follow these simple example steps.
 * Design of the remainnig pages i.e project, join and campaingn 
 - 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributor"></a>
+
+Feel free to check the [issues page](https://github.com/Cabraham1/WeLead-conference/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
