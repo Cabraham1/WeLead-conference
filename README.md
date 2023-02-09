@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio README</b></h3>
+  <h3><b>WeLead Political Summit</b></h3>
 
 </div>
 
@@ -34,7 +34,15 @@
 
 # 📖 [Mobile-First-Portfolio] <a name="about-project"></a>
 
-This project aims to build a simple, one-page responsive portfolio website to showcase prior personal projects. The project requires you to configure an HTML-CSS linter according to provided guidelines, design the website to prioritize mobile devices, and implement it.
+The objective of this project is to create a conference website that showcases the details of an upcoming summit aimed at increasing the involvement of women in politics. The summit is titled "WeLead Political Summit."
+
+![screenshot](./assets/WeLead%20conferences%20-%20Google%20Chrome%202_9_2023%208_54_30%20AM.png)
+
+The objective of this project is to develop a straightforward, multi-page, and mobile-friendly conference website that will be launched later this year. The website will display all the crucial information related to the conference, including the list of speakers, the event schedule, the sponsors, and any other relevant information.
+
+This project requires you to establish an HTML-CSS-JavaScript linter according to the guidelines outlined in the HTML-CSS-JavaScript linter configuration documentation. You are to adopt a mobile-first approach in constructing the website, ensuring that it is responsive on both mobile and desktop devices, interactive, and subject to testing before deployment.
+
+The project will contain the homepage and about page.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,7 +52,7 @@ This project aims to build a simple, one-page responsive portfolio website to sh
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demoemo <a name="#live-demo"></a>
-[Live Demo Link](https://cabraham1.github.io/)
+[Live Demo Link](https://www.loom.com/share/6c5857d0696c45f3b099e1b39a81bf3a)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -71,8 +79,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Choose a directory
 - Open a Terminal
-- write: git clone https://github.com/Cabraham1/Mobile-First-Portfolio.git
-- get into to directory "Mobile-First-Portfolio"
+- write: git clone git@github.com:Cabraham1/WeLead-conference.git
+- get into to directory "WeLead-conference"
 - write: npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,9 +96,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/cabraham1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrahamchristopher)
 
-👤 **Alejandro Bernal**
-
-- GitHub: [@githubhandle](https://github.com/Alejandro-Bernal-m)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,9 +103,6 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing <a name="contributor"></a>
 
- *jrmcuervom*
- *Malcom-Charlie*
- *Alejandro Bernal Marín*
  <br> Coding Partner<br>
 
 Feel free to check the [issues page](../../issues/).
@@ -122,10 +124,8 @@ Feel free to check the [issues page](../../issues/).
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank...
-Onifade
-Elizerbeth
-Kajal
-Emmanuel
+
+<h1>Creative Commons license of the design </h1>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
