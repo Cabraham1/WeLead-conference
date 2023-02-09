@@ -344,39 +344,40 @@ a {
     margin: 0 auto;
   }
 
+  .title-paragraph {
+    color: rgb(236, 82, 66);
+    font-size: 2.7rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+  }
+
   .title h1 {
     background-image: url(./assets/title-bg.jpg);
     background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-family: 'Lato', sans-serif;
     margin-top: 1rem;
   }
 
-  .title-paragraph {
-    color: rgb(236, 82, 66);
-    font-size: 32px;
-    font-weight: 500;
-    font-family: 'Lato', sans-serif;
-  }
-
   .quote {
     border: 3px solid #fff;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 400;
     padding: 10px;
     color: #272a31;
-    line-height: 1.6rem;
+    line-height: 2rem;
     background-color: rgb(211, 211, 211, 0.3);
-    margin-top: 40px;
-    margin-bottom: 2rem;
+    margin: 5rem 4rem 1rem 4rem;
+    font-family: 'Lato', sans-serif;
   }
 
   .title span {
     color: #272a31;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 400;
     font-family: 'Lato', sans-serif;
   }
 
@@ -405,23 +406,23 @@ a {
 
   .wp-logo-title {
     font-family: 'Lato', sans-serif;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 
   .wp-logo p {
     text-align: center;
     margin: 20px auto 0 auto;
-    font-size: 1.2rem;
-    width: 90%;
-    font-weight: 500;
+    font-size: 1.3rem;
+    width: 60%;
+    font-weight: 400;
     line-height: 2rem;
     font-family: 'Lato', sans-serif;
   }
 
   .logo-box {
     border: 3px solid grey;
-    width: 95%;
+    width: 40%;
     text-align: center;
     margin: 20px auto;
     padding: 2rem 4rem;
@@ -458,23 +459,23 @@ a {
     padding-bottom: 1rem;
   }
 
-  .past-event>h1 {
+  .past-event > h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-top: 1rem;
-    font-size: 2.1rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 500;
   }
 
   .past-event>p {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 0 1rem;
   }
 
   .event {
-    width: 100%;
+    width: 40%;
     color: #fff;
     position: relative;
   }
@@ -487,11 +488,11 @@ a {
 
   .event-img {
     width: 100%;
-    height: 50%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 50px;
+    margin-top: 2rem;
   }
 
   .event-content {
@@ -538,6 +539,6 @@ a {
   }
 
   .hid {
-    display: none;
+    display: block;
   }
 }
