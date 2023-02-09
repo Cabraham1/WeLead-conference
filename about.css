@@ -15,7 +15,6 @@ a {
 /* mobile view starts here */
 
 @media screen and (min-width: 330px) and (max-width: 599px) {
-
   .header-icon {
     display: none;
   }
@@ -84,10 +83,6 @@ a {
     color: #fff;
     font-size: 1.7rem;
     font-weight: bolder;
-  }
-
-  .header-icon {
-    display: none;
   }
 
   .nav-item:hover {
@@ -251,7 +246,7 @@ a {
     padding-bottom: 1rem;
   }
 
-  .past-event>h1 {
+  .past-event > h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-top: 1rem;
@@ -259,7 +254,7 @@ a {
     font-weight: 400;
   }
 
-  .past-event>p {
+  .past-event > p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
@@ -336,6 +331,12 @@ a {
 }
 
 @media screen and (min-width: 600px) {
+  .title a {
+    color: #272a31;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+  }
 
   .header-icon li a {
     text-decoration: none;
@@ -484,13 +485,6 @@ a {
     font-family: 'Lato', sans-serif;
   }
 
-  .title a {
-    color: #272a31;
-    text-decoration: underline;
-    font-weight: 600;
-    font-family: 'Lato', sans-serif;
-  }
-
   .wp-logo {
     text-align: center;
     padding: 50px;
@@ -562,7 +556,7 @@ a {
     padding-bottom: 1rem;
   }
 
-  .past-event>h1 {
+  .past-event > h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-top: 1rem;
@@ -570,7 +564,7 @@ a {
     font-weight: 500;
   }
 
-  .past-event>p {
+  .past-event > p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;

@@ -128,7 +128,7 @@ Feel free to check the [issues page](https://github.com/Cabraham1/WeLead-confere
 
 I would like to thank...
 
-👤 [cindy shin](https://www.behance.net/adagio07) the [ author of the Original design,](https://www.behance.net/adagio07) as required by the [reative Commons license](https://www.behance.net/adagio07)
+👤 [cindy shin](https://www.behance.net/adagio07) the [ Author of the Original design,](https://www.behance.net/adagio07) as required by the [Creative Commons license](https://www.behance.net/adagio07)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
