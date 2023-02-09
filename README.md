@@ -91,11 +91,6 @@ To get a local copy up and running follow these simple example steps.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Original design idea by
-👤 **Cindy Shin**
-- Behance: [@behance](https://www.behance.net/adagio07)
-
-
 👤 **Christopher Abraham**
 - GitHub: [@githubhandle](https://github.com/cabraham1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrahamchristopher)
@@ -133,11 +128,8 @@ Feel free to check the [issues page](https://github.com/Cabraham1/WeLead-confere
 
 I would like to thank...
 
-> Original design idea by
-👤 **Cindy Shin**
-- Behance: [@behance](https://www.behance.net/adagio07)
+👤 [cindy shin](https://www.behance.net/adagio07) the [ author of the Original design,](https://www.behance.net/adagio07) as required by the [reative Commons license](https://www.behance.net/adagio07)
 
-<h1>Creative Commons license of the design </h1>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
