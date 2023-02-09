@@ -132,7 +132,7 @@ a {
     margin: 0 auto;
   }
 
-  .title h1 {
+  .title-h2 {
     background-image: url(./assets/title-bg.jpg);
     background-clip: inherit;
     -webkit-background-clip: text;
@@ -421,7 +421,7 @@ a {
     margin-bottom: 1rem;
   }
 
-  .title h1 {
+  .title-h2 {
     background-image: url(./assets/title-bg.jpg);
     background-clip: inherit;
     -webkit-background-clip: text;

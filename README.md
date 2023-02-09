@@ -51,8 +51,8 @@ The project will contain the homepage and about page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demoemo <a name="#live-demo"></a>
-[Live Demo Link](https://www.loom.com/share/6c5857d0696c45f3b099e1b39a81bf3a)
+## 🚀 Live Demo <a name="#live-demo"></a>
+[Live Demo Link](https://cabraham1.github.io/WeLead-conference/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,6 +75,10 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+ - a Laptop
+ - git 
+ - code editor (e.g Vscode)
+
 To get a local copy up and running follow these simple example steps.
 
 - Choose a directory
@@ -89,10 +93,14 @@ To get a local copy up and running follow these simple example steps.
 
 ## 👥 Authors <a name="authors"></a>
 
+> Original design idea by
+👤 **Cindy Shin**
+- GitHub: [@behance](https://www.behance.net/adagio07)
+
 > Mention all of the collaborators of this project.
 
-👤 **Christopher Abraham**
 
+👤 **Christopher Abraham**
 - GitHub: [@githubhandle](https://github.com/cabraham1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrahamchristopher)
 
@@ -114,23 +122,6 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributor"></a>
-
- <br> Coding Partner<br>
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -140,6 +131,10 @@ Feel free to check the [issues page](../../issues/).
 
 I would like to thank...
 
+> Original design idea by
+👤 **Cindy Shin**
+- Behance: [@behance](https://www.behance.net/adagio07)
+
 <h1>Creative Commons license of the design </h1>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,7 +143,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 
 
