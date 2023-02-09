@@ -28,9 +28,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-<!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [Mobile-First-Portfolio] <a name="about-project"></a>
 
@@ -97,8 +95,6 @@ To get a local copy up and running follow these simple example steps.
 👤 **Cindy Shin**
 - Behance: [@behance](https://www.behance.net/adagio07)
 
-> Mention all of the collaborators of this project.
-
 
 👤 **Christopher Abraham**
 - GitHub: [@githubhandle](https://github.com/cabraham1)
@@ -134,8 +130,6 @@ Feel free to check the [issues page](https://github.com/Cabraham1/WeLead-confere
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
