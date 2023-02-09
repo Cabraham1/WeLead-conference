@@ -180,7 +180,7 @@ a {
     padding-bottom: 1rem;
   }
 
-  .past-event > h1 {
+  .past-event>h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-top: 1rem;
@@ -188,7 +188,285 @@ a {
     font-weight: 400;
   }
 
-  .past-event > p {
+  .past-event>p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .event {
+    width: 100%;
+    color: #fff;
+    position: relative;
+  }
+
+  .event img {
+    width: 90%;
+    object-fit: cover;
+    margin-bottom: 30px;
+  }
+
+  .event-img {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .event-content {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background: none;
+  }
+
+  .event img:hover {
+    filter: opacity(0.8);
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: rgb(46, 45, 45);
+    margin-top: 10%;
+    color: rgb(238, 234, 234);
+  }
+
+  .logo-footer {
+    border: 3px dotted red;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    line-height: 18px;
+    border-radius: 16px;
+    padding: 5px 5px 5px 5px;
+    color: #49494b;
+    background-color: #fff;
+  }
+
+  .custom ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .custom ul li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .hid {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .nav-menu {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    gap: 2rem;
+  }
+
+  #campaign-link {
+    border: 3px solid red;
+    padding: 5px;
+  }
+
+  .nav-item {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    gap: 2rem;
+  }
+
+  .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1rem 2rem;
+    background-color: #fff;
+    width: 80vw;
+    min-width: 90vw;
+  }
+
+  .logo span {
+    border: 3px dotted red;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    line-height: 18px;
+    border-radius: 16px;
+    padding: 5px 5px 5px 5px;
+    color: #49494b;
+  }
+
+  .logo {
+    color: #49494b;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .first-section {
+    background: url(./assets/conference-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title {
+    padding: 160px 50px 100px 50px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .title h1 {
+    background-image: url(./assets/title-bg.jpg);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: 1rem;
+  }
+
+  .title-paragraph {
+    color: rgb(236, 82, 66);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .quote {
+    border: 3px solid #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+    color: #272a31;
+    line-height: 1.6rem;
+    background-color: rgb(211, 211, 211, 0.3);
+    margin-top: 40px;
+    margin-bottom: 2rem;
+  }
+
+  .title span {
+    color: #272a31;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .title a {
+    color: #272a31;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .wp-logo {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .wp-logo hr,
+  .past-event hr {
+    height: 5px;
+    width: 50px;
+    background-color: rgba(236, 82, 66, 1);
+    border-color: rgba(236, 82, 66, 1);
+    opacity: 1;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .wp-logo-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+
+  .wp-logo p {
+    text-align: center;
+    margin: 20px auto 0 auto;
+    font-size: 1.2rem;
+    width: 90%;
+    font-weight: 500;
+    line-height: 2rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .logo-box {
+    border: 3px solid grey;
+    width: 95%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 2rem 4rem;
+  }
+
+  .logo-box p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .logo-WL {
+    border: 3px dotted red;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    line-height: 18px;
+    border-radius: 16px;
+    padding: 5px 5px 5px 5px;
+    color: #49494b;
+  }
+
+  .logo-box-span {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 520;
+  }
+
+  .past-event {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 1rem;
+  }
+
+  .past-event>h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-top: 1rem;
+    font-size: 2.1rem;
+    font-weight: 400;
+  }
+
+  .past-event>p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
