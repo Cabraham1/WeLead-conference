@@ -15,10 +15,6 @@ a {
 /* mobile view starts here */
 
 @media screen and (min-width: 330px) and (max-width: 599px) {
-  .nav-item {
-    display: block;
-  }
-
   .bar {
     display: block;
     width: 20px;
@@ -26,7 +22,7 @@ a {
     height: 5px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #000000;
+    background-color: #000;
   }
 
   .hamburger {
@@ -59,7 +55,7 @@ a {
     top: -1px;
     flex-direction: column;
     width: 100%;
-    background-color: #6070ff;
+    background-color: #1d0d0d;
     text-align: left;
     transition: 0.3s;
     height: 100vh;
@@ -72,6 +68,7 @@ a {
     margin-top: 2rem;
     padding-left: 1rem;
     width: 351px;
+    display: block;
   }
 
   .nav-menu.active {
@@ -83,8 +80,6 @@ a {
     font-size: 1.7rem;
     font-weight: bolder;
   }
-
-
 
   .header-icon {
     display: none;
@@ -251,7 +246,7 @@ a {
     padding-bottom: 1rem;
   }
 
-  .past-event>h1 {
+  .past-event > h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-top: 1rem;
@@ -259,7 +254,7 @@ a {
     font-weight: 400;
   }
 
-  .past-event>p {
+  .past-event > p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
@@ -533,7 +528,7 @@ a {
     padding-bottom: 1rem;
   }
 
-  .past-event>h1 {
+  .past-event > h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-top: 1rem;
@@ -541,7 +536,7 @@ a {
     font-weight: 500;
   }
 
-  .past-event>p {
+  .past-event > p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
