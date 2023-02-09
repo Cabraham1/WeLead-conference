@@ -99,6 +99,21 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- FUTURE FEATURES -->
+
+## 👥 Future Features <a name="Future Features"></a>
+
+> Future Features includes.
+
+* impleamentation of smooth scroll
+* Refactoring the whole project using React js
+* Design of the remainnig pages i.e project, join and campaingn 
+- 
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributor"></a>
