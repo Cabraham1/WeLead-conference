@@ -571,7 +571,7 @@ a {
     padding: 50px;
   }
 
-  .program-intro h1 {
+  .program-intro h2 {
     color: #fff;
     text-align: center;
     align-items: center;
@@ -667,7 +667,7 @@ a {
     border-color: rgba(236, 82, 66, 1);
   }
 
-  .speakers-intro h1 {
+  .speakers-intro h2 {
     color: #3f3f3f;
     font-size: 32px;
     font-weight: 600;
@@ -735,7 +735,7 @@ a {
     text-align: center;
   }
 
-  .partner h1 {
+  .partner h2 {
     color: rgb(218, 218, 218);
     font-size: 2rem;
     font-weight: 600;

@@ -15,6 +15,11 @@ a {
 /* mobile view starts here */
 
 @media screen and (min-width: 330px) and (max-width: 599px) {
+
+  .header-icon {
+    display: none;
+  }
+
   .bar {
     display: block;
     width: 20px;
@@ -246,7 +251,7 @@ a {
     padding-bottom: 1rem;
   }
 
-  .past-event > h1 {
+  .past-event>h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-top: 1rem;
@@ -254,7 +259,7 @@ a {
     font-weight: 400;
   }
 
-  .past-event > p {
+  .past-event>p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
@@ -331,6 +336,35 @@ a {
 }
 
 @media screen and (min-width: 600px) {
+
+  .header-icon li a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .header-icon {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2b2a2a;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    height: 3rem;
+  }
+
+  .header-icon ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    margin-right: 200px;
+  }
+
+  .header-icon li {
+    margin-left: 20px;
+    list-style: none;
+  }
+
   .nav-menu {
     display: block;
     display: flex;
@@ -528,7 +562,7 @@ a {
     padding-bottom: 1rem;
   }
 
-  .past-event > h1 {
+  .past-event>h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-top: 1rem;
@@ -536,7 +570,7 @@ a {
     font-weight: 500;
   }
 
-  .past-event > p {
+  .past-event>p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
