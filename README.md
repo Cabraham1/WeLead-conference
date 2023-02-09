@@ -32,7 +32,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Mobile-First-Portfolio] <a name="about-project"></a>
+# 📖 [Welead Political Summit] <a name="about-project"></a>
 
 The objective of this project is to create a conference website that showcases the details of an upcoming summit aimed at increasing the involvement of women in politics. The summit is titled "WeLead Political Summit."
 
